@@ -29,8 +29,7 @@
 > 1 WALKING 2 WALKING_UPSTAIRS 3 WALKING_DOWNSTAIRS 4 SITTING5 STANDING6 LAYING
 
 
-### Step4 : Appropriately labels the data set with descriptive variable names using gsub , get the final tidy dataset
-### tidy_data
+### Step4 : Labels the data set with descriptive variable names using gsub , get the final tidy dataset tidy_data
 
 > Create a vector with column names 
 > Rename the column names with descriptive understanding using gsub() function , ignoring CASE
