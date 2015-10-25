@@ -28,7 +28,6 @@
 ##Step 3: Using descriptive activity names to name the activities in the data set based on activity labels
 # 1 WALKING 2 WALKING_UPSTAIRS 3 WALKING_DOWNSTAIRS 4 SITTING5 STANDING6 LAYING
 
-
 ##Step4 : Appropriately labels the data set with descriptive variable names using gsub , get the final tidy dataset
 #tidy_data
 
