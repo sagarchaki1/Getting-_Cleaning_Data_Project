@@ -25,6 +25,7 @@
 # Subsetting the data based on the selected mean, std columns
 
 
+
 ##Step 3: Using descriptive activity names to name the activities in the data set based on activity labels
 # 1 WALKING 2 WALKING_UPSTAIRS 3 WALKING_DOWNSTAIRS 4 SITTING5 STANDING6 LAYING
 
