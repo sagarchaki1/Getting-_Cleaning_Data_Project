@@ -3,7 +3,7 @@
 
 Initial steps to clean up workspace and set up the working directory
 
- STEP 1. Merge the training and the test sets to create one final dataset.
+### STEP 1. Merge the training and the test sets to create one final dataset.
 
 Reading activity labels and features 
 Reading test and training datasets and rename appropriate colnames 
