@@ -71,4 +71,4 @@ Using matchcols
 
 ### Section 5. Create an independent tidy data set with the average of each variable for each activity and each subject.
 
-> Per the project instructions, we need to produce only a data set with the average of each veriable for each activity and subject
+> Per the project instructions, we need to produce only a data set with the average of each variable for each activity and subject
