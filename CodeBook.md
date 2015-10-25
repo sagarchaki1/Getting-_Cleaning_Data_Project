@@ -68,7 +68,6 @@ Using matchcols
 > Re-arranging the column names as the final tidy dataset
 > write the final tidy dataset into txt format tidy_data
 
-
 ### Section 5. Create an independent tidy data set with the average of each variable for each activity and each subject.
 
 > Per the project instructions, we need to produce only a data set with the average of each variable for each activity and subject
