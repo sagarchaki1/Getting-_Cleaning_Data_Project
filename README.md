@@ -1,7 +1,7 @@
 
 ##Getting-_Cleaning_Data_Project: ReadME.md
 
-Initial steps to clean up workspace and set up the working directory
+> Initial steps to clean up workspace and set up the working directory
 
 ### STEP 1. Merge the training and the test sets to create one final dataset.
 
@@ -11,7 +11,6 @@ Reading test and training datasets and rename appropriate colnames
 Using cbind function to merge subject,x and y data for test and training datasets.(two diferent sets)
 
 Checking the top rows/names of each of the datasets using head() function 
-
 Renaming the Columns
 
 
