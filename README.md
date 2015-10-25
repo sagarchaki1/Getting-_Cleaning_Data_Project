@@ -5,20 +5,19 @@
 
 ### STEP 1. Merge the training and the test sets to create one final dataset.
 
-Reading activity labels and features 
-Reading test and training datasets and rename appropriate colnames 
+> Reading activity labels and features 
+> Reading test and training datasets and rename appropriate colnames 
 
-Using cbind function to merge subject,x and y data for test and training datasets.(two diferent sets)
+> Using cbind function to merge subject,x and y data for test and training datasets.(two diferent sets)
 
-Checking the top rows/names of each of the datasets using head() function 
-Renaming the Columns
+> Checking the top rows/names of each of the datasets using head() function 
+> Renaming the Columns
 
-
-Appending the test and the train datasets to create the whole_data 
-
+> Appending the test and the train datasets to create the whole_data 
 
 
- Step 2: Selecting columns with mean and std measurements
+
+### Step 2: Selecting columns with mean and std measurements
 selcting columns with the std dev or mean measures using matchcols function 
 
 converting the list to a vector in details
