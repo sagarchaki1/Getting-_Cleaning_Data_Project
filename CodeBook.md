@@ -49,14 +49,26 @@ Assign column names and merge test_data and train_data to create one data set wh
 
 ###Section 2. Extract only the measurements on the mean and standard deviation for each measurement.
 
-Create a logcal vector that contains TRUE values for the ID, mean and stdev columns and FALSE values for the others. Subset this data to keep only the necessary columns.
+> Subset this data to keep only the necessary columns with only mean and std dev measurements, subject_id and activity_id
+Using matchcols
 
-Section 3. Use descriptive activity names to name the activities in the data set
+### Section 3. Use descriptive activity names to name the activities in the data set
 
-Merge data subset with the activityType table to cinlude the descriptive activity names
-Section 4. Appropriately label the data set with descriptive activity names.
+> Setting activity labels , activity_name corresponding to the activity_id using looping ifelse() function 
 
-Use gsub function for pattern replacement to clean up the data labels.
-Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Per the project instructions, we need to produce only a data set with the average of each veriable for each activity and subject
+###Section 4. Appropriately label the data set with descriptive activity names.
+
+> Create a vector with column names 
+
+> Rename the column names with descriptive wordings using gsub() function , ignoring CASE
+> Eg. Replace "^(f)" by "freq", "AccMag" by "AccMagnitude", and so on. 
+
+> Put back the defined, descriptive column names back to the dataset
+> Re-arranging the column names as the final tidy dataset
+> write the final tidy dataset into txt format tidy_data
+
+
+### Section 5. Create an independent tidy data set with the average of each variable for each activity and each subject.
+
+> Per the project instructions, we need to produce only a data set with the average of each veriable for each activity and subject
